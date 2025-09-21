@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+body{
+  background: url(Descargar\ vector\ de\ fondo\ en\ el\ concepto\ de\ tecnología_\ gratis.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+}
+.cor{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  max-height: 0;
+  font-size: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  filter: drop-shadow(0 4px 10px white);
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.python{
+  height: 300px;
+  width: 50px;
+  overflow: hidden;
+  background: transparent;
+  box-shadow: 0 10px 30px white;
+  margin-left: 10px;
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.python:hover{
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+  width: 200px;
+}
+
+#c{
+  background: url(ct.png);
+  background-repeat: no-repeat;
+}
+
+#c:hover{
+  background: url(f.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#c_plus{
+  background: url(cplus.png);
+  background-repeat: no-repeat;
+}
+
+#c_plus:hover{
+  background: url(c.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#pyth{
+  background: url(pyt.png);
+  background-repeat: no-repeat;
+}
+
+#pyth:hover{
+  background: url(pythone.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#html{
+  background: url(ht.png);
+  background-repeat: no-repeat;
+}
+
+#html:hover{
+  background: url(html.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#css{
+  background: url(cst.png);
+  background-repeat: no-repeat;
+}
+
+#css:hover{
+  background: url(css.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#js{
+  background: url(js.png);
+  background-repeat: no-repeat;
+}
+
+#js:hover{
+  background: url(java.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button{
+  margin: 0 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  height: 40px;
+  background-color: #573b8a;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #6d44b8;
+}

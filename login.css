@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(Descargar\ vector\ de\ fondo\ en\ el\ concepto\ de\ tecnología_\ gratis.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+}
+
+.main{
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  box-shadow: 0 3px 32px rgba(255, 255, 255, 0.5);
+}
+#check{
+  display: none;
+}
+.singup{
+  width: 100%;
+  height: 100%;
+}
+
+label{
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+input{
+  width: 60%;
+  height: 10px;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+input::placeholder{
+  color: rgba(255, 2551, 255, 2);
+  padding-left: 5px;
+}
+
+button{
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+button:hover{
+  background: #6d44b8;
+}
+.login{
+  height: 460px;
+  background: linear-gradient(to bottom,
+  grey 20%,
+  black 90%);
+  border-radius: 60% / 10%;
+  box-shadow: 0 -10px 14px rgba(255, 255, 255, 0.5);
+  transform: translateY(-180px);
+  transition: .8s ease-in-out;
+}
+.pass{
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgba(255, 2551, 255, 0.8);
+  text-decoration: none;
+  position: relative;
+  left: 65px;
+  bottom: 15px;
+}
+
+.login label{
+  color: black;
+  transform: scale(.6);
+}
+
+#check:checked ~ .login{
+  transform: translateY(-500px);
+}
+#check:checked ~ .login label{
+  transform: scale(1);
+  color: white;	
+}
+#check:checked ~ .singup label {
+  transform: scale(.6);
+}
